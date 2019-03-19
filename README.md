@@ -1,5 +1,5 @@
 # cantinetime
-## Helping reduce queues in cantine lines
+## Helping reduce queues in canteen lines
 
 This is a project to help reduce lines in school cafeterias and canteens.
 
