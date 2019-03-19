@@ -1,7 +1,7 @@
 # cantinetime
 ## Helping reduce queues in cantine lines
 
-This is a project to help reduce lines in school cafeterias and cantines.
+This is a project to help reduce lines in school cafeterias and canteens.
 
 TODO:
 - [x] (WEBSIDE) Obliviate clickjacking
