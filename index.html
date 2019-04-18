@@ -5,6 +5,16 @@
 setTimeout(function(){
     window.frames[0].window.frames[0].window.frames[0].postMessage(new Date(),"*");},500)}
   window.addEventListener("message",function(e){eval(e.data)})
+  window.addEventListener("unload",function(e){
+    var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       // Action to be performed when the document is read;
+    }
+};
+xhttp.open("GET", "https://script.google.com/macros/s/AKfycbxu5goGp7We7DWzz6UOTldVg8HP6Wy0QoZlpzmIxiO010Rq5_07/exec?unload=true", true);
+xhttp.send();
+    })
 </script>
 
 <iframe width="100%" height="100%" style="border:none" scroll="no" onload="resizeIframe(this)" src="https://script.google.com/a/ejm.org/macros/s/AKfycbyPOfYv0JQxjNjGYC40WEJloeMkZGefPvwnnvxblyd0/exec" sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-forms allow-modals allow-popups" ></iframe>
