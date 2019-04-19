@@ -8,5 +8,5 @@ TODO:
 - [x] (AI) Get appropriate dataset
 - [x] (AI) Train TF model
 - [x] (AI) Get tensorflow to recognize heads
-- [ ] (WEB) Add comment system
+- [X] (WEB) Add comment system
 - [ ] (HARDWARE) Setup Raspberry Pi with cameras
